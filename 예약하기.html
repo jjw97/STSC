@@ -1,0 +1,263 @@
+<!DCOTYPE html>
+
+<!--html5-->
+
+<html>
+
+
+
+<head>
+
+    <title>예약하기</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <style>
+        #Navbar {
+
+            font-size: 30px;
+
+            color: white
+
+        }
+
+
+
+        .navbar {
+
+            padding-top: 5px;
+
+            letter-spacing: 4px;
+
+            background-color: black
+        }
+
+
+
+        #myNavbar {
+
+            font-size: 14px;
+
+        }
+
+
+    
+        body {
+
+            font-family: "맑은 고딕";
+
+        }
+
+
+
+        .cont {
+
+            width: 500px;
+
+            margin: 0 auto;
+
+        }
+        .nav-item:hover {
+                background-color: gray;
+                
+            }
+    </style>
+
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-default">
+
+        <div class="container">
+
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+                    <span class="icon-bar"></span>
+
+                    <span class="icon-bar"></span>
+
+                    <span class="icon-bar"></span>
+
+                </button>
+
+                <a class="navbar-brand" href="index.html" id=Navbar style="active">ST Study Cafe </a>
+
+            </div>
+
+            <div class="collapse navbar-collapse " id="myNavbar">
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" style="color : white" href="독서실소개.html">독서실소개</a></li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" style="color : white" href="이용요금.html">이용요금 </a></li>
+
+                    <li class="nav-item active">
+
+                        <a class="nav-link" style="active; color : black" href="문의하기.html">문의하기<span
+                                class="sr-only">(current)</a>
+                    </li>
+                    <li class="nav-item">
+
+                        <a class="nav-link" style="color : white" href="공지사항.html">공지사항</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <table border="0" >
+
+        <div class="container-fluid" style = "padding-top : 100px">
+            <div class="row">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3 text-center">
+                    <p><b>이름</b></p>
+
+
+
+                </div>
+                <div class="col-md-3 text-center">
+                    <input name="name" type="이름" style = "width : 160px"><br>
+
+
+
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style = "padding-top : 5px">
+            <div class="row">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3 text-center">
+
+                    <p><b>연락처</b></p>
+
+                </div>
+                <div class="col-md-3 text-center" >
+
+                    <input type="text" name="연락처" style = "width : 160px"><br>
+
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid " style = "padding-top : 5px">
+            <div class="row">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3 text-center">
+                    <p><b>호실</b></p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <input type="text" name="호실" style = "width : 160px">
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style = "padding-top : 5px">
+            <div class="row">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3 text-center">
+                    <p><b>층</b></p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <input type="text" name="층" style = "width : 160px">
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style = "padding-top : 5px">
+            <div class="row">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3 text-center">
+                    <p><b>예약희망날짜</b></p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <input type="date" name="bday" style = "width : 160px">
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid" style = "padding-top : 5px">
+            <div class="row">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3 text-center">
+                    <p><b>기타(문의사항)</b></p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <textarea name="message" rows="3" cols="23"></textarea>
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+        </div>
+
+    </table>
+
+    <div class="container-fluid text-center" style="padding-top : 60px; padding-bottom : 30px;">
+
+        <a href="접수완료.html" button type="접수완료" style="width : 250px; background-color :white;  color : black;"
+        class="btn btn-success ">
+
+        예약하기
+    
+    </a>
+
+    </div>
+
+
+
+    <div class= "container-fluid text-center" style = "padding-top : 10px">
+        <h5>
+
+            문의접수 후 1시간 이내로 입력하신 연락처로 연락을 받아보실 수 있습니다.
+
+        </h5>
+    </div>
+
+</body>
+
+
+
+</html>

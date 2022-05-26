@@ -1,0 +1,341 @@
+<!DCOTYPE html>
+
+    <!--html5-->
+
+    <html>
+
+
+
+    <head>
+
+        <title>메인화면</title>
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+        <style>
+            .bg1 {
+                padding-top: 50px;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+
+
+
+            .bg2 {
+                padding-top: 50px;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+
+
+
+            .bg4 {
+
+                padding-top: 250px;
+                padding-bottom: 100px;
+                padding-left: 120px;
+
+            }
+
+
+
+            .bg3 {
+
+                padding-top: 100px;
+                padding-bottom: 50px;
+                padding-left: 50px;
+                padding-right: 50px;
+
+            }
+
+
+
+
+
+            .container-fruid {
+
+                padding-top: 70px;
+
+                padding-bottom: 70px;
+
+            }
+
+
+
+            #Navbar {
+
+                font-size: 30px;
+
+                color: white
+            }
+
+
+
+            .navbar {
+
+                padding-top: 5px;
+
+                letter-spacing: 4px;
+
+                background-color: black;
+
+                border: 5;
+
+                border-radius: 5;
+
+                letter-spacing: 5px;
+
+            }
+
+            .nav-item:hover {
+                background-color: gray;
+                
+            }
+
+
+
+            #myNavbar {
+
+                font-size: 14px;
+            }
+        </style>
+        <script>function openWin() {
+                myWindow = window.open("팝업.", "myWindow", "width=400, height=200");   // Opens a new window
+            }
+
+            function closeWin() {
+                myWindow.close();   // Closes the new window
+            }</script>
+
+    </head>
+
+
+
+    <body onload='openWin()'>
+
+
+
+        <script>
+            var myWindow;
+
+            function openWin() {
+                myWindow = window.open("팝업.html", "myWindow", "width=800px,height=420px, status=0, titlebar=0");
+
+            }
+
+            function closeWin() {
+                myWindow.close();
+            }
+        </script>
+
+        <body onload="open(팝업.html)">
+
+
+            <nav class="navbar navbar-default">
+
+                <div class="container">
+
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+                            <span class="icon-bar"></span>
+
+                            <span class="icon-bar"></span>
+
+                            <span class="icon-bar"></span>
+
+                        </button>
+
+                        <a class="navbar-brand" href="index.html" id=Navbar style="active">ST Study Cafe </a>
+
+                    </div>
+
+                    <div class="collapse navbar-collapse " id="myNavbar">
+
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li class="nav-item">
+
+                                <a class="nav-link" style="color : white" href="독서실소개.html">독서실소개</a>
+                            </li>
+
+                            <li class="nav-item">
+
+                                <a class="nav-link" style="color : white" href="이용요금.html">이용요금 </a>
+                            </li>
+
+                            <li class="nav-item">
+
+                                <a class="nav-link" style="color : white" href="문의하기.html">문의하기</a>
+                            </li>
+
+                            <li class="nav-item">
+
+                                <a class="nav-link" style="color : white" href="공지사항.html">공지사항</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+            <div class="container-fluid  text-center">
+
+                <div id="독서실메인" class="carousel slide" data-ride="carousel" data-interval="3000">
+                    <ol class="carousel-indicators">
+                    <li data-target="#독서실메인" data-slide-to="0" class="active"></li>
+                    <li data-target="#독서실메인" data-slide-to="1"></li>
+                    <li data-target="#독서실메인" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                    <img src="독서실1.jpg" alt="무빙이미지1" style="display:inline;width:100%; height:500px; padding-bottom : 40px; ">
+                    </div>
+                    
+                    <div class="item">
+                    <img src="독서실12.jpg" alt="무빙이미지2" style="display:inline;width:100%; height:500px; padding-bottom : 40px; ">
+                    </div>
+                    
+                    <div class="item">
+                    <img src="독서실13.jpg" alt="무빙이미지3" style="display:inline;width:100%; height:500px; padding-bottom : 40px; ">
+                    </div>
+                    </div>
+            </div>
+
+
+
+            <div class="container-fluid">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="row">
+
+                            <div class="col-md-3 bg1">
+
+                                <h3 class="text-center" style="padding-bottom : 20px; ">
+
+                                    예약하기
+
+                                </h3>
+
+                            </div>
+
+
+
+                            <div class="col-md-3 bg1 text-center">
+
+
+
+                                <img alt="2" src="독서실2.jpg" class="img-default img-responsive"
+                                    style="display:inline;width:100%; height : 200px; padding-bottom : 30px;" />
+
+                                <a href="예약하기.html" class="btn btn-success"
+                                    style="width : 220px; background-color :white;  color : black;"
+                                    type="예약하기">예약하기</a>
+
+                            </div>
+
+
+
+                            <div class="col-md-3 bg2">
+
+                                <h3 class="text-center" style="padding-bottom : 20px;">
+
+                                    이용요금&이벤트
+
+                                </h3>
+                            </div>
+
+
+
+                            <div class="col-md-3 bg2 text-center">
+
+
+
+                                <img alt="3" src="독서실3.jpg" class="img-default img-responsive"
+                                    style="display:inline;width:100%; height:200px; padding-bottom : 30px; " />
+
+                                <a href="이용요금.html" button type="이용요금"
+                                    style="width : 220px; background-color :white;  color : black;"
+                                    class="btn btn-success ">
+
+                                    이용요금
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-3 bg3">
+
+                                <h3 class="text-center" style="padding-bottom : 20px;">
+
+                                    스터디 그룹 만들기/참가 신청
+
+                                </h3>
+                            </div>
+
+
+
+                            <div class="col-md-3 bg3 text-center">
+
+
+
+                                <img alt="4" src="독서실4.jpg" class="img-default img-responsive"
+                                    style="display:inline;width:100%; height:200px; padding-bottom : 30px;" />
+
+                                <a href="참가하기.html" button type="button"
+                                    style="width : 220px; background-color :white;  color : black;"
+                                    class="btn btn-success">
+
+                                    참가/신청하기
+
+                                </a>
+
+                            </div>
+
+
+
+                           
+
+                        </div>
+                        <div class="row text-center"  style= "color: white; background-color: black;"">
+                            <address>
+
+                                <strong>Contact us</strong><br /> ST Study Cafe<br /> 서울시 노원구 공릉동 <br />
+                                <abbr title="Phone">대표전화:</abbr> 031-765-4321
+
+                            </address>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </body>
+
+    </html>
